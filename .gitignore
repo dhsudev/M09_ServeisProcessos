@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Entorns
+.env
+.env.*.local
+
+# Producció
+/build
+/dist
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# Test coverage
+coverage/
+
+# Sistema operatiu
+.DS_Store
+Thumbs.db
+
+# IDEs i editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Altres
+*.bak
+*.tmp
